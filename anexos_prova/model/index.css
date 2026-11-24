@@ -2,11 +2,12 @@ global {
     box-sizing: border-box;
     font-family: Inter, Arial, sans-serif;
     justify-content: center;
+  
 }
 body {
     margin: 0;
     padding: 0;
-
+  background-color: #888888;
 }
 /*correação do tamanho da imagem do usuário*/
 .perfil-de-usuário {
@@ -22,7 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 400px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
 }
 
 /*centralização da barra de pesquisa*/
@@ -59,4 +60,20 @@ header {
 /*diminuir a distancia entre as imagens da galeria verticalmente*/
 .primeira-fileira, .segunda-fileira, .terceira-fileira {
     margin-bottom: -160px;
+}
+
+/*aumentando o icone do coração ao passar o mouse por cima*/
+.coracao:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+}
+
+/*ajuste do footer*/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 100px 0px 0px 0px;
+    background-color: #383838;
 }
